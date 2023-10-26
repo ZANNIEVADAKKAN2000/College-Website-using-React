@@ -1,0 +1,62 @@
+.about {
+  padding-top: 46px;
+  height: 155vh;
+  background-color: rgb(28, 184, 41);
+}
+.about > .box {
+  padding: 43px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  background-size: contain;
+  background-image: url("./images/About-our-college.jpg");
+}
+.about > .box > h1 {
+  color: rgb(28, 184, 41);
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: -100px;
+  display: block;
+  width: 30%;
+}
+.about > .box > p {
+  letter-spacing: 2px;
+  width: 70%;
+  padding-left: 30px;
+  word-spacing: 3px;
+  line-height: 35px;
+  color: rgb(222, 228, 238);
+  font-size: 18px;
+  display: block;
+}
+.about > .menus {
+  height: 550px;
+  background-color: rgb(25, 47, 89);
+  display: flex;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+.about > .menus > div {
+  height: 90%;
+  width: 280px;
+  padding: 10px;
+}
+
+.about > .menus > div > h3 {
+  color: rgb(251, 248, 248);
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  margin-top: 30px;
+}
+.about > .menus > div > p {
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: rgb(222, 228, 238);
+}
+.about > .menus > .university > img {
+  margin-top: -10px;
+}

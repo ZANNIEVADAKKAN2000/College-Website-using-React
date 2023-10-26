@@ -1,0 +1,24 @@
+.contact {
+  padding: 50px;
+  min-height: 100vh;
+  width: 100%;
+}
+.contact > .card {
+  margin-top: 50px;
+}
+.contact > .card > h1 {
+  letter-spacing: 1px;
+  word-spacing: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgb(25, 38, 85);
+  margin-bottom: 18px;
+  padding-bottom: 5px;
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.434);
+}
+.contact > .card > p {
+  line-height: 35px;
+  color: grey;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
