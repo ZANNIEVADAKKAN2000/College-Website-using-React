@@ -1,7 +1,6 @@
 .about {
   padding-top: 46px;
-  height: 155vh;
-  background-color: rgb(28, 184, 41);
+  height: 325vh;
 }
 .about > .box {
   padding: 43px;
@@ -59,4 +58,82 @@
 }
 .about > .menus > .university > img {
   margin-top: -10px;
+}
+.about>.princy{
+  display: flex;
+  margin: 50px;
+  height: 510px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.21);
+  /* background-color: rgb(225, 224, 224); */
+}
+.about>.princy>img{
+  display: block;
+  height: 510px;
+  width: auto;
+}
+.about>.princy>.content{
+  padding:0px 55px;
+
+}
+.about>.princy>.content>h4{
+padding-top: 30px;
+font-size: 18px;
+font-weight: 800;
+margin-bottom: 40px;
+}
+.about>.princy>.content>h2{
+  color:  rgb(25, 47, 89);
+  font-weight: 600;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.about>.princy>.content>p{
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  word-spacing: 3px;
+}
+.about>.highlights{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  padding: 50px;
+  padding-top: 0;
+  width:100%
+}
+.about>.highlights>.entrepreneurship{
+background-image: url("./images/enterpreneur.jpg");
+height: 300px;
+background-size: cover;
+width: 100%;
+}
+.about>.highlights>.placement{
+  background-image: url("./images/Placements.jpg");
+  height: 300px;
+  background-size: cover;
+  width: 100%;
+}
+.about>.highlights>.scholorship{
+  height: 300px;
+  background-image: url("./images/Scholarships.jpg");
+  background-size: cover;
+  width: 100%;
+}
+.about>.highlights>div{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about>.highlights>div>h1{
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(243, 238, 238);
+}
+.about>.highlights>div>p{
+font-size: 18px;
+text-align: center;
+  color: rgb(168, 165, 165);
 }
